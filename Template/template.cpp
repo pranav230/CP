@@ -4,8 +4,8 @@
 #define fast ios_base::sync_with_stdio(false); cin.tie(0);
 #define rep(i,a,n) for(int i=a;i<n;i++)
 #define all(x) x.begin(),x.end()
-#define vi vector<int>
-#define pii pair<int,int>
+#define V(x) vector<x>
+#define P(x,y) pair<x,y>
 #define UMP(x,y) unordered_map<x,y>
 #define MP(x,y) map<x,y>
 #define pb push_back
