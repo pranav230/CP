@@ -8,3 +8,4 @@
 * [**Linear Recurrence(Using Matrix Exponentiation)**](https://github.com/pranav230/CP/tree/master/Linear%20Recurrence)
 * [**Next Permutation**](https://github.com/pranav230/CP/tree/master/Next%20Permutation)
 * [**Builtin Bit Manipulation Functions**](https://github.com/pranav230/CP/tree/master/Bit%20Manipulation)
+* [**Prime Factorization**](https://github.com/pranav230/CP/tree/master/Prime%20Factorization)
