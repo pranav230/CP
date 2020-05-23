@@ -4,7 +4,7 @@
  * 
 */
 
-// Prime Factorization of the numbers.
+// Prime Factorization for the numbers which have more that one factor using sieve of Eratosthenes.
 
 #include<bits/stdc++.h>
 
@@ -30,28 +30,45 @@ const int mod = 1000000007;
 
 using namespace std;
 
+//extra 1 because index start from 1
+int arr[1000001];
+
+void sieve(){
+	int max = 1e6;
+	
+	rep(i,0,1e6)
+		arr[i] = -1;
+	
+	rep(i,2,max+1)
+		if(arr[i] == -1)
+			for(int j=i;j<=max;j+=i)
+				if(arr[j] == -1)
+					arr[j] = i;
+}
+
 int32_t main(){
     fast
     	
-	int t;
+    sieve();
+    int t;
 	cin>>t;
 	rep(_,0,t){
 		int n;
 		cin>>n;
-		for(int i=2;i*i<=n;i++){
-			if(n%i == 0){
-				int count = 0;
-				while(n%i == 0){
-					n/=i;
-					count++;
-				}
-				cout<<i<<"^"<<count<<endl;
+		if(n == 1 || n == 0){
+			cout<<"Err\n";
+			continue;
+		}
+		while(n > 1){
+			if(arr[n] != n){
+				cout<<arr[n]<<" * ";
+				n/=arr[n];
+			}
+			else{
+				cout<<n<<" * "<<1<<endl;
+				break;
 			}
 		}
-		if(n>1)
-			cout<<n<<"^"<<1<<endl;
-		cout<<endl;
-	}
-    
+	}	
     return 0;
 }
