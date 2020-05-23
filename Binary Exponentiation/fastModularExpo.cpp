@@ -1,3 +1,11 @@
+/*
+ * 
+ * Author: Pranav Bansal
+ * 
+*/
+
+// Fast Exponentation(Binary Exponentiation) with modulus property
+
 #include<bits/stdc++.h>
 
 #define fast ios_base::sync_with_stdio(false); cin.tie(0);
