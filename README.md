@@ -49,6 +49,8 @@ Once you enter the git `checkout` command, you will receive the following output
 
 ##### `Switched to branch 'new-branch' `
 
+Make a new folder with name as a topic which you want to add.
+
 ##### `mkdir topic`
 
 ##### `cd topic`
