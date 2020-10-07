@@ -1,4 +1,4 @@
-# CP
+# CP_TRICKS
 
 ### Contents are as follows:
 
