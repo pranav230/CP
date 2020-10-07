@@ -49,11 +49,12 @@ Once you enter the git `checkout` command, you will receive the following output
 
 ##### `Switched to branch 'new-branch' `
 
-##### `code .`
+##### `mkdir topic`
 
-Once you enter this command, the whole code will automatically open in your code editor
+##### `cd topic`
 
-At this point, you can now modify existing files or add new files to the project on your own branch.
+Now you can add new files with **topic.cpp** in the topic folder.
+
 
 #### Make Changes Locally
 
