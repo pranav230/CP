@@ -1,4 +1,4 @@
-# CP_TRICKS
+# CP
 
 ## Instructions:
 
