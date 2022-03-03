@@ -57,3 +57,20 @@ int main(){
 	
 	return 0;
 }
+
+/*****************************************************************************************************************
+
+Example: FOR POWER(2,7)
+
+power		4	3	2	1  ---> power of 2
+
+binary		0	1	1	1  ---> 7
+
+value		256	16	4	2  ---> value of powers of 2
+
+Algorithm ---> 	To calculate the value of power(2,7) multiply the values which have 1 in the binary. 
+		Therefore, it become 16*4*2 = 128
+
+******************************************************************************************************************/
+
+
